@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I love to explore technologies and look forward to opportunities to create meaningful products.',
   paragraphThree: ' ',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1gMukjbaWE6hdrrXVM3Q1bgfsJgTFDRnh/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
