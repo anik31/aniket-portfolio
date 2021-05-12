@@ -23,11 +23,30 @@ export const aboutData = {
   paragraphTwo:
     'I love to explore technologies and look forward to opportunities to create meaningful products.',
   paragraphThree: ' ',
-  resume: 'https://drive.google.com/file/d/1gMukjbaWE6hdrrXVM3Q1bgfsJgTFDRnh/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1An0abFabqSJpcNSWsHpk_ocD7cqeTxvJ/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'shopcart.png',
+    title: 'Shopcart',
+    info: 'Shopping cart API made using express.js and sequelize.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/anik31/shopcart', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'connect.png',
+    title: 'Git Connect',
+    info:
+      'A Github App which will monitor the pull requests of a Github account and make a post to the user’s Linkedin account.',
+    info2: '',
+    url: 'https://devfolio.co/submissions/git-connect-0061',
+    repo: 'https://github.com/Jinlabs/git-connect', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'minder.png',
