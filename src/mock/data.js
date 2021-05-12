@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'shopcart.png',
+    img: 'shopcart.jpg',
     title: 'Shopcart',
     info: 'Shopping cart API made using express.js and sequelize.',
     info2: '',
